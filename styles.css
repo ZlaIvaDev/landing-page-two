@@ -69,3 +69,79 @@ button {
 }
 
 /* mid section */
+
+.info-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h2 {
+    padding: 22px;
+}
+
+.info-area-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 120px;
+    text-align: center;
+    padding: 22px;
+}
+
+/* mid section quote */
+
+.quote-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px;
+    flex-wrap: wrap;
+    font-size: 36px;
+    background-color: #e7e5eb;
+}
+
+.quote {
+    width: 600px;
+}
+.quote.creator {
+    margin-left: auto;
+    font-weight: 600;
+}
+
+/* have to fix quote area alignement */
+
+/*  here goeas action area */
+
+.action-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.text-container {
+    flex: 1;
+    padding: 32px;
+    margin: 42px;
+    width: 600px;
+    background-color: #3882F6;
+}
+
+/* and lastly footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2bd8a4;
+    padding: 36px;
+}
+
+.button-one, .button-two {
+    padding: 8px 16px;
+    
+}
